@@ -1,10 +1,5 @@
-### 1 Create Datasets
-# downloading and saving data ready for zipline ingest
-# 1.1 Imports
-
 import os
-from datetime import date
-
+from datetime import date, datetime
 import pandas as pd
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -24,6 +19,29 @@ def create_constituents(df):
                                })
 
     return results_df
+
+def diff_tickers(sp500):
+    added_tickers = {}
+    removed_tickers = {}
+
+    for i in range(1, len(sp500.index)):
+        prev_tickers = set(sp500.iloc[i - 1].tickers)
+        current_tickers = set(sp500.iloc[i].tickers)
+
+        added = current_tickers - prev_tickers
+        if added:
+            added_tickers[sp500.index[i]] = list(added)
+
+        removed = prev_tickers - current_tickers
+        if removed:
+            removed_tickers[sp500.index[i]] = list(removed)
+
+    at_only = pd.DataFrame(added_tickers.items(), columns=['date', 'added_tickers'])
+    rt_only = pd.DataFrame(removed_tickers.items(), columns=['date', 'removed_tickers'])
+    combined = pd.merge(at_only, rt_only, on=['date'], how='outer')
+    combined = combined.set_index('date')
+
+    return combined
 
 
 def main():
@@ -45,10 +63,39 @@ def main():
     df = create_constituents(sp_500_constituents)
     final = pd.concat([sp500_hist, df], ignore_index=True)
 
-    # output
+    # output sp_500_historical_components
     final = final.drop_duplicates(subset=['date', 'tickers'],keep='last')
     final.to_csv('sp_500_historical_components.csv', index=False)
+
+    #
+    # get added and removed components
+    filename = 'sp_500_historical_components.csv'
+    sp500_historical = pd.read_csv(filename, index_col='date')
+
+    # Convert ticker column from csv to list, then sort.
+    sp500_historical['tickers'] = sp500_historical['tickers'].apply(lambda x: sorted(x.split(',')))
+
+    # sort dataframe by date
+    sp500_historical = sp500_historical.sort_index()
+    combined = diff_tickers(sp500_historical)
+    combined.to_csv('sp500_changes_since_1996.csv')
+
+    #
+    # rewrite README.md
+    changes_readme = combined.iloc[-50:]
+    changes_readme = changes_readme.sort_index(ascending=False)
     
+    YML = "README.md"
+    f = open(YML, "r+", encoding="UTF-8")
+    list1 = f.readlines()
+    current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    list1 = list1[:11] + [f'S&P500 Constituents Auto Renew at **{current_datetime}**']
+    list1 += ['\n\n']
+    list1 += [changes_readme.to_markdown()]
+    f = open(YML, "w+", encoding="UTF-8")
+    f.writelines(list1)
+    f.close()
+
 
 if __name__ == '__main__':
     main()
