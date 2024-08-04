@@ -39,8 +39,9 @@ def diff_tickers(sp500):
     at_only = pd.DataFrame(added_tickers.items(), columns=['date', 'added_tickers'])
     rt_only = pd.DataFrame(removed_tickers.items(), columns=['date', 'removed_tickers'])
     combined = pd.merge(at_only, rt_only, on=['date'], how='outer')
+    combined = combined.sort_values('date', ascending=True)
     combined = combined.set_index('date')
-
+    
     return combined
 
 
