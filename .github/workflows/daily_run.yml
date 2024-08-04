@@ -35,7 +35,7 @@ jobs:
       - name: ls_show
         run: |
           python sp500.py
-          ls -al /*.csv
+          ls -al *.csv
              
       - name: Push changes to remote repository
         env:
@@ -49,7 +49,7 @@ jobs:
           git config --local user.email "${U_EMAIL}" 
 
           git status -s
-          git add /*.csv
+          git add *.csv
           git add .github/workflows/daily_run.yml
           git add README.md
 
