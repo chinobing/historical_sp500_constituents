@@ -90,7 +90,8 @@ def main():
     f = open(YML, "r+", encoding="UTF-8")
     list1 = f.readlines()
     current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    list1 = list1[:11] + [f'S&P500 Constituents Auto Renew at **{current_datetime}**']
+    list1 = list1[:10]
+    list1 += [f'S&P500 Constituents Auto Renew at **{current_datetime}**']
     list1 += ['\n\n']
     list1 += [changes_readme.to_markdown()]
     f = open(YML, "w+", encoding="UTF-8")
