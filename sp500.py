@@ -62,6 +62,7 @@ def main():
     sp_500_constituents.sort_values(by='ticker', ascending=True,inplace=True)
 
     df = create_constituents(sp_500_constituents)
+    df['date'] = pd.to_datetime(df['date']).dt.strftime("%Y-%m-%d")
     final = pd.concat([sp500_hist, df], ignore_index=True)
 
     # output sp_500_historical_components
