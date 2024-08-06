@@ -8,17 +8,17 @@ List of S&amp;P 500 historical constituents from 1996/01/02 to present. CSV form
 **'sp_500_historical_components.csv'**  contains historical S&P 500 index membership from 1996 til present. Output from **'sp500.py'**
 
 ## Latest Changes
-S&P500 Constituents Auto Renew at **2024-08-06 01:15:44**
+S&P500 Constituents Auto Renew at **2024-08-06 12:33:05**
 
 | date       | added_tickers                       | removed_tickers           |
 |:-----------|:------------------------------------|:--------------------------|
 | 2024-08-04 | ['BF.B']                            | ['BF-B']                  |
 | 2024-07-12 | ['SW']                              | nan                       |
 | 2024-07-09 | nan                                 | ['WRK']                   |
-| 2024-06-23 | ['GDDY', 'KKR', 'CRWD']             | ['RHI', 'CMA', 'ILMN']    |
+| 2024-06-23 | ['KKR', 'CRWD', 'GDDY']             | ['CMA', 'RHI', 'ILMN']    |
 | 2024-05-08 | ['VST']                             | nan                       |
 | 2024-05-04 | nan                                 | ['PXD']                   |
-| 2024-04-04 | nan                                 | ['XRAY', 'VFC']           |
+| 2024-04-04 | nan                                 | ['VFC', 'XRAY']           |
 | 2024-04-03 | ['GEV']                             | nan                       |
 | 2024-04-02 | ['SOLV']                            | nan                       |
 | 2024-03-27 | ['CPAY']                            | nan                       |
@@ -28,7 +28,7 @@ S&P500 Constituents Auto Renew at **2024-08-06 01:15:44**
 | 2024-02-02 | ['DAY']                             | ['CDAY']                  |
 | 2024-01-01 | ['RVTY']                            | ['RVTY (Previously PKI)'] |
 | 2023-12-31 | ['RVTY (Previously PKI)']           | ['RVTY']                  |
-| 2023-12-17 | ['BLDR', 'UBER', 'JBL']             | ['SEDG', 'ALK', 'SEE']    |
+| 2023-12-17 | ['JBL', 'UBER', 'BLDR']             | ['SEE', 'ALK', 'SEDG']    |
 | 2023-10-18 | ['HUBB', 'LULU']                    | ['OGN']                   |
 | 2023-10-14 | nan                                 | ['ATVI']                  |
 | 2023-10-06 | ['VLTO']                            | ['DXC']                   |
@@ -46,12 +46,12 @@ S&P500 Constituents Auto Renew at **2024-08-06 01:15:44**
 | 2023-06-04 | ['DISH']                            | ['PANW']                  |
 | 2023-06-03 | ['PANW']                            | ['DISH']                  |
 | 2023-05-18 | ['RVTY']                            | ['PKI']                   |
-| 2023-05-17 | ['DOW', 'IR', 'FOXA', 'CEG', 'FOX'] | nan                       |
+| 2023-05-17 | ['CEG', 'FOXA', 'DOW', 'FOX', 'IR'] | nan                       |
 | 2023-05-14 | ['BF-B']                            | ['BF.B']                  |
-| 2023-05-09 | ['BRK.B', 'BF.B']                   | ['BF-B', 'BRK-B']         |
+| 2023-05-09 | ['BF.B', 'BRK.B']                   | ['BRK-B', 'BF-B']         |
 | 2023-05-07 | ['AXON']                            | ['FRC']                   |
 | 2023-03-20 | ['FICO']                            | ['LUMN']                  |
-| 2023-03-15 | ['BG', 'PODD']                      | ['SBNY', 'SIVB']          |
+| 2023-03-15 | ['BG', 'PODD']                      | ['SIVB', 'SBNY']          |
 | 2023-01-04 | ['GEHC']                            | ['VNO']                   |
 | 2022-12-22 | ['STLD']                            | ['ABMD']                  |
 | 2022-12-19 | ['FSLR']                            | ['FBHS']                  |
@@ -59,6 +59,6 @@ S&P500 Constituents Auto Renew at **2024-08-06 01:15:44**
 | 2022-11-01 | ['ACGL']                            | ['TWTR']                  |
 | 2022-10-12 | ['TRGP']                            | ['NLSN']                  |
 | 2022-10-03 | ['EQT', 'PCG']                      | ['CTXS', 'DRE']           |
-| 2022-09-19 | ['CSGP', 'INVH']                    | ['PVH', 'PENN']           |
+| 2022-09-19 | ['INVH', 'CSGP']                    | ['PENN', 'PVH']           |
 | 2022-06-28 | ['ELV']                             | ['ANTM']                  |
-| 2022-06-21 | ['KDP', 'ON']                       | ['UA', 'IPGP', 'UAA']     |
+| 2022-06-21 | ['KDP', 'ON']                       | ['UAA', 'IPGP', 'UA']     |
