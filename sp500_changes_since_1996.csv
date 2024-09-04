@@ -4,7 +4,7 @@ date,added_tickers,removed_tickers
 1996-03-08,['FITB'],['HDLM']
 1996-03-13,['GNT'],['FBO']
 1996-03-28,,['CYR']
-1996-04-01,"['NLV', 'WCOEQ']","['CMB', 'I']"
+1996-04-01,"['WCOEQ', 'NLV']","['CMB', 'I']"
 1996-04-23,['AON'],['LOR']
 1996-05-31,['TUP'],['PMI']
 1996-07-19,['MTG'],['USHC']
@@ -16,7 +16,7 @@ date,added_tickers,removed_tickers
 1996-11-04,['RX'],['YRCW']
 1996-12-03,['MBI'],['CNW']
 1996-12-19,['GDT'],['BLY']
-1997-01-02,"['AZO', 'FRO', 'TMO']","['SHN', 'RYAN', 'LUB']"
+1997-01-02,"['TMO', 'AZO', 'FRO']","['RYAN', 'SHN', 'LUB']"
 1997-01-07,,['BOAT']
 1997-01-08,['EHC'],
 1997-01-15,['CNC'],['AAL']
@@ -29,9 +29,9 @@ date,added_tickers,removed_tickers
 1997-06-19,['EFX'],['PEL']
 1997-07-02,['WAMUQ'],['GWF']
 1997-07-17,['SAI'],['GIDL']
-1997-07-28,"['APA', 'APC']","['SFS', 'INGR']"
+1997-07-28,"['APC', 'APA']","['SFS', 'INGR']"
 1997-08-01,,['MD']
-1997-08-04,"['PGR', 'OI']",['USBC']
+1997-08-04,"['OI', 'PGR']",['USBC']
 1997-08-06,['HBAN'],['ENS']
 1997-08-07,['MIR'],['NAE']
 1997-08-15,,['NYN']
@@ -50,7 +50,7 @@ date,added_tickers,removed_tickers
 1998-01-28,['SUB'],['CBB']
 1998-01-30,['NTRS'],['PAS']
 1998-02-23,['MTL'],
-1998-04-01,"['NXTL', 'SEE']","['SK', 'JH']"
+1998-04-01,"['NXTL', 'SEE']","['JH', 'SK']"
 1998-04-08,['AFS.A'],['CHRS']
 1998-04-27,['GTW'],['FG']
 1998-04-28,,['CFL']
@@ -58,7 +58,7 @@ date,added_tickers,removed_tickers
 1998-05-21,['MAR'],
 1998-06-12,['ASND'],['DEC']
 1998-06-29,['SRE'],['PET']
-1998-07-01,"['SLM', 'COF', 'BSC']","['RYI', 'GNT', 'BNL']"
+1998-07-01,"['SLM', 'BSC', 'COF']","['BNL', 'RYI', 'GNT']"
 1998-07-10,['FMY'],['ECH']
 1998-07-16,['DG'],['GFS.A']
 1998-07-17,['WM'],['WMX']
@@ -88,7 +88,7 @@ date,added_tickers,removed_tickers
 1999-04-05,['KSU'],['AMP']
 1999-04-12,,['ANV']
 1999-05-03,['CMS'],['UCC']
-1999-05-28,"['DPHIQ', 'AFL']","['FMY', 'MWI']"
+1999-05-28,"['DPHIQ', 'AFL']","['MWI', 'FMY']"
 1999-06-04,['PWJ'],['BT']
 1999-06-09,['WLP'],['HPH']
 1999-06-22,['FPC'],['MII']
@@ -102,7 +102,7 @@ date,added_tickers,removed_tickers
 1999-08-13,['LXK'],['RYC']
 1999-09-20,['TOS'],['MTL']
 1999-09-29,['GX'],['FRO']
-1999-10-01,"['SXCL', 'BBBY']","['FTL.A', 'BKB']"
+1999-10-01,"['BBBY', 'SXCL']","['FTL.A', 'BKB']"
 1999-10-04,['PNW'],['PHB']
 1999-10-11,,['AIT']
 1999-10-12,['ADI'],
@@ -122,12 +122,12 @@ date,added_tickers,removed_tickers
 2000-01-03,,['RNB']
 2000-01-04,['NCR'],
 2000-01-06,['YNR'],['NLV']
-2000-01-31,"['CNXT', 'BGEN', 'HOG']","['FWLT', 'FLTWQ', 'CNG']"
+2000-01-31,"['HOG', 'BGEN', 'CNXT']","['FWLT', 'CNG', 'FLTWQ']"
 2000-03-16,['TSG'],['SCI']
-2000-04-03,"['VRTS', 'LLTC']","['PBY', 'PNU']"
+2000-04-03,"['LLTC', 'VRTS']","['PBY', 'PNU']"
 2000-04-18,,['ARC']
 2000-05-04,,['RLM']
-2000-05-05,"['SAPE', 'SEBL']",
+2000-05-05,"['SEBL', 'SAPE']",
 2000-05-10,['MXIM'],['JOS']
 2000-06-01,['APCC'],['MIR']
 2000-06-05,['A'],['NC']
@@ -137,9 +137,9 @@ date,added_tickers,removed_tickers
 2000-06-16,['MEDI'],['CSR']
 2000-06-19,['CF'],['CHA']
 2000-06-20,,['WLA']
-2000-06-21,"['TIF', 'SANM']",['SGID']
-2000-06-29,"['VSTNQ', 'MERQ']","['MZIAQ', 'IKN']"
-2000-07-03,['BRCM'],"['USW', 'GTE']"
+2000-06-21,"['SANM', 'TIF']",['SGID']
+2000-06-29,"['MERQ', 'VSTNQ']","['MZIAQ', 'IKN']"
+2000-07-03,['BRCM'],"['GTE', 'USW']"
 2000-07-13,['JNS'],['KSU']
 2000-07-17,['CIT.A'],['UPR']
 2000-07-27,['VIAV'],['RAD']
@@ -147,25 +147,25 @@ date,added_tickers,removed_tickers
 2000-08-21,['KSE'],['NCE']
 2000-08-30,['DVN'],['GAPTQ']
 2000-10-02,['AV'],['OWENQ']
-2000-10-03,['DYN'],"['BFO', 'YNR']"
+2000-10-03,['DYN'],"['YNR', 'BFO']"
 2000-10-18,['NBR'],['MKG']
 2000-10-23,['PWER'],['UCM']
-2000-11-02,"['NI', 'EOG']","['CG', 'EFU']"
+2000-11-02,"['EOG', 'NI']","['EFU', 'CG']"
 2000-11-06,['BVSN'],['PWJ']
 2000-11-17,,['ACKH']
 2000-11-22,['FRX'],['SEG']
 2000-11-24,['CHIR'],['FJ']
 2000-12-01,['CPNLQ'],"['FPC', 'AFS.A']"
 2000-12-05,['RHI'],
-2000-12-11,"['MET', 'INTU', 'AYE', 'SBL', 'ABKFQ']","['GRA', 'OI', 'BHMSQ', 'VO', 'CCK']"
-2000-12-12,"['VTSS', 'SYK', 'KMI', 'QLGC']","['PRD', 'RML', 'SMI', 'NGH']"
+2000-12-11,"['INTU', 'AYE', 'ABKFQ', 'SBL', 'MET']","['BHMSQ', 'GRA', 'CCK', 'VO', 'OI']"
+2000-12-12,"['SYK', 'VTSS', 'QLGC', 'KMI']","['PRD', 'RML', 'SMI', 'NGH']"
 2000-12-22,['FLR'],['MEE']
 2001-01-02,['AMCC'],
 2001-01-30,['JBL'],['CGP']
 2001-02-07,['UVN'],['UK']
 2001-02-27,['FTR'],
 2001-03-01,['CTAS'],['SUB']
-2001-04-02,"['FISV', 'CE']","['OK', 'CEN']"
+2001-04-02,"['CE', 'FISV']","['OK', 'CEN']"
 2001-04-03,['MIR'],['BGG']
 2001-05-14,['PBG'],['SXCL']
 2001-06-04,['MWW'],['CIT.A']
@@ -181,7 +181,7 @@ date,added_tickers,removed_tickers
 2001-09-04,['IGT'],['BVSN']
 2001-09-17,,['TOS']
 2001-09-21,['IMNX'],
-2001-10-10,"['TE', 'EOP']","['TX', 'GX']"
+2001-10-10,"['TE', 'EOP']","['GX', 'TX']"
 2001-11-07,['HMA'],['GPU']
 2001-11-30,['NVDA'],['ENRNQ']
 2001-12-03,['EQR'],['NSI']
@@ -195,11 +195,11 @@ date,added_tickers,removed_tickers
 2002-02-11,,['WLL']
 2002-05-06,['FHN'],['CPQ']
 2002-05-13,['TT'],['SAPE']
-2002-05-15,"['BJS', 'APOL']","['UAWGQ', 'WCOEQ']"
+2002-05-15,"['APOL', 'BJS']","['WCOEQ', 'UAWGQ']"
 2002-06-26,['SPG'],['CNXT']
 2002-07-16,,['IMNX']
 2002-07-17,['NFB'],
-2002-07-22,"['GS', 'PFG', 'UPS', 'PRU', 'SDS', 'EA', 'EBAY']","['INCLF', 'UN', 'AL', 'PDG', 'NRTLQ', 'ABX', 'RDS.A']"
+2002-07-22,"['GS', 'EA', 'SDS', 'PRU', 'EBAY', 'UPS', 'PFG']","['INCLF', 'NRTLQ', 'PDG', 'ABX', 'AL', 'RDS.A', 'UN']"
 2002-07-25,['ANTM'],['CNC']
 2002-08-14,,['PALM']
 2002-08-21,,['VTSS']
@@ -223,14 +223,14 @@ date,added_tickers,removed_tickers
 2004-04-23,['MYL'],['PCS']
 2004-04-29,['VLO'],['JHF']
 2004-05-03,['HSP'],['AM']
-2004-07-01,"['SOV', 'GILD']","['ONE', 'UPC']"
+2004-07-01,"['SOV', 'GILD']","['UPC', 'ONE']"
 2004-08-03,['FSH'],['TNB']
 2004-09-01,['TPR'],['CF']
 2004-10-27,['CITGQ'],['AWE']
 2004-11-01,['LH'],['SOTR']
 2004-12-01,,['WLP']
 2004-12-03,['FSL'],['WNDXQ']
-2004-12-20,"['CBSS', 'ASN']","['DLX', 'CR', 'WOR']"
+2004-12-20,"['ASN', 'CBSS']","['WOR', 'DLX', 'CR']"
 2004-12-29,['XTO'],['PSFT']
 2005-03-14,['NOV'],['PWER']
 2005-07-05,"['STZ', 'DHI']","['VRTS', 'GLK']"
@@ -240,7 +240,7 @@ date,added_tickers,removed_tickers
 2005-08-15,['MUR'],['NXTL']
 2005-08-19,['PSA'],['DALRQ']
 2005-08-29,,['MAY']
-2005-10-03,['AMP'],"['G', 'PVN']"
+2005-10-03,['AMP'],"['PVN', 'G']"
 2005-10-04,['LEN'],
 2005-10-11,['PDCO'],['DPHIQ']
 2005-11-21,['AMZN'],
@@ -252,7 +252,7 @@ date,added_tickers,removed_tickers
 2006-02-01,['VRSN'],"['SEBL', 'RBK']"
 2006-02-27,['BRL'],['SFA']
 2006-03-03,,['DCNAQ']
-2006-04-03,"['GOOGL', 'KIM', 'BXP', 'DF']","['BR', 'MYG', 'CIN', 'JP']"
+2006-04-03,"['DF', 'BXP', 'KIM', 'GOOGL']","['CIN', 'BR', 'MYG', 'JP']"
 2006-04-20,['SNDK'],['CHIR']
 2006-04-24,['LM'],['GDT']
 2006-05-18,['EQ'],['AMCC']
@@ -262,12 +262,12 @@ date,added_tickers,removed_tickers
 2006-07-18,['WIN'],['CTB']
 2006-08-01,['H'],"['GTW', 'CAR']"
 2006-08-11,['CME'],['KMG']
-2006-10-02,['WU'],"['GDW', 'ANDW']"
+2006-10-02,['WU'],"['ANDW', 'GDW']"
 2006-11-06,['CELG'],['ASO']
-2006-11-10,"['FIS', 'CBRE']","['FSH', 'LPX']"
+2006-11-10,"['FIS', 'CBRE']","['LPX', 'FSH']"
 2006-11-17,['CTSH'],['ACV']
 2006-11-20,['BTUUQ'],['HCA']
-2006-12-01,['IAC'],"['NFB', 'LU']"
+2006-12-01,['IAC'],"['LU', 'NFB']"
 2006-12-04,,['FSL']
 2006-12-20,['TEX'],['NAV']
 2007-01-03,,"['PTC', 'BLS']"
@@ -286,7 +286,7 @@ date,added_tickers,removed_tickers
 2007-04-10,['AIZ'],['H']
 2007-05-31,,['KMI']
 2007-06-01,,['MEDI']
-2007-07-02,"['GGP', 'TEL', 'COV', 'DFS']","['MEL', 'ADCT', 'PMCS', 'SANM']"
+2007-07-02,"['COV', 'GGP', 'TEL', 'DFS']","['PMCS', 'MEL', 'SANM', 'ADCT']"
 2007-07-09,['ACAS'],['DG']
 2007-07-12,['AKAM'],['BMET']
 2007-08-27,['JEF'],['KSE']
@@ -313,15 +313,15 @@ date,added_tickers,removed_tickers
 2008-06-02,['ISRG'],['BSC']
 2008-06-06,['SWN'],['TT']
 2008-06-11,['LO'],['ABKFQ']
-2008-06-23,"['MEE', 'COG']","['BC', 'OMX']"
-2008-07-01,['SNI'],"['CFC', 'SSP']"
+2008-06-23,"['MEE', 'COG']","['OMX', 'BC']"
+2008-07-01,['SNI'],"['SSP', 'CFC']"
 2008-07-18,['MA'],
 2008-07-31,['DVA'],['CCU']
 2008-08-21,['IVZ'],['IAC']
 2008-08-26,,['EDS']
 2008-08-27,['CF'],
-2008-09-11,,"['FMCC', 'FNMA']"
-2008-09-15,"['CRM', 'FAST']",
+2008-09-11,,"['FNMA', 'FMCC']"
+2008-09-15,"['FAST', 'CRM']",
 2008-09-17,,['LEHMQ']
 2008-09-22,['HRS'],
 2008-09-23,,['SAF']
@@ -334,7 +334,7 @@ date,added_tickers,removed_tickers
 2008-11-06,['SJM'],['TEX']
 2008-11-11,,['UIS']
 2008-11-13,['PBCT'],['GGP']
-2008-11-14,"['WYNN', 'XRAY']","['ASH', 'HPC']"
+2008-11-14,"['XRAY', 'WYNN']","['ASH', 'HPC']"
 2008-11-17,['CEPH'],
 2008-11-18,,['BUD']
 2008-11-19,['SRCL'],
@@ -343,11 +343,11 @@ date,added_tickers,removed_tickers
 2008-12-05,['RSG'],['AW']
 2008-12-19,['EQT'],
 2008-12-23,,['BRL']
-2009-01-02,"['FLIR', 'SCG', 'OI']","['MER', 'NCC', 'WB']"
+2009-01-02,"['FLIR', 'SCG', 'OI']","['WB', 'MER', 'NCC']"
 2009-01-06,['IRM'],['UST']
 2009-01-30,['WELL'],['SOV']
 2009-02-26,,['WFT']
-2009-03-04,"['HRL', 'VTR']","['JNY', 'ACAS']"
+2009-03-04,"['HRL', 'VTR']","['ACAS', 'JNY']"
 2009-03-17,['ES'],
 2009-03-27,['ORLY'],
 2009-03-30,['TWC'],['DDR']
@@ -365,7 +365,7 @@ date,added_tickers,removed_tickers
 2009-10-16,['FSLR'],['WYE']
 2009-11-04,,['SGP']
 2009-11-06,['BKNG'],
-2009-12-21,"['CLF', 'MJN', 'ROST', 'V', 'LDOS']","['KBH', 'CVG', 'DYN', 'CIEN', 'MBI']"
+2009-12-21,"['ROST', 'V', 'CLF', 'LDOS', 'MJN']","['CIEN', 'KBH', 'CVG', 'DYN', 'MBI']"
 2009-12-23,['ROP'],['ESV']
 2010-01-29,['NRG'],
 2010-02-08,,['ACS']
@@ -377,7 +377,7 @@ date,added_tickers,removed_tickers
 2010-04-30,['CERN'],
 2010-06-28,['KMX'],['XTO']
 2010-07-01,['QEP'],
-2010-12-20,"['CVC', 'FFIV', 'NFLX', 'NFX']","['ODP', 'EKDKQ', 'NYT']"
+2010-12-20,"['CVC', 'NFLX', 'NFX', 'FFIV']","['NYT', 'ODP', 'EKDKQ']"
 2011-01-04,['MMI'],['MDP']
 2011-01-18,,['QLGC']
 2011-02-28,['JOY'],['AYE']
@@ -423,17 +423,17 @@ date,added_tickers,removed_tickers
 2013-07-01,['NWSA'],['APOL']
 2013-07-09,['NLSN'],
 2013-09-11,['DAL'],
-2013-09-23,"['VRTX', 'AME']","['AMD', 'LDOS']"
+2013-09-23,"['AME', 'VRTX']","['AMD', 'LDOS']"
 2013-11-13,['KORS'],['NYX']
 2013-12-02,['ALLE'],['JCP']
 2013-12-09,,['MOLX']
 2013-12-10,['GGP'],
-2013-12-23,"['ADS', 'MHK', 'FB']","['TER', 'VIAV', 'ANF']"
+2013-12-23,"['MHK', 'FB', 'ADS']","['VIAV', 'ANF', 'TER']"
 2014-01-24,['TSCO'],
 2014-03-24,['GMCR'],['WPX']
 2014-04-02,['ESS'],['CLF']
 2014-04-03,['GOOG'],
-2014-05-01,"['NAVI', 'UAA']",['SLM']
+2014-05-01,"['UAA', 'NAVI']",['SLM']
 2014-05-07,,['LSI']
 2014-05-08,['AVGO'],
 2014-06-20,['XEC'],['IGT']
@@ -441,14 +441,14 @@ date,added_tickers,removed_tickers
 2014-07-02,['MLM'],['X']
 2014-08-07,['DISCK'],
 2014-08-19,,['RDC']
-2014-09-22,"['UHS', 'URI']","['BTUUQ', 'GHC']"
+2014-09-22,"['UHS', 'URI']","['GHC', 'BTUUQ']"
 2014-11-05,['LVLT'],['JBL']
 2014-12-05,['RCL'],['BMS']
-2015-01-27,"['ENDP', 'HCA']","['SWY', 'COV']"
+2015-01-27,"['ENDP', 'HCA']","['COV', 'SWY']"
 2015-03-12,['SWKS'],['PETM']
 2015-03-17,,['CFN']
 2015-03-18,['HSIC'],
-2015-03-23,"['SLG', 'EQIX', 'HBI', 'AAL']","['AVP', 'DNR', 'NBR']"
+2015-03-23,"['EQIX', 'AAL', 'HBI', 'SLG']","['AVP', 'NBR', 'DNR']"
 2015-04-07,['O'],['WIN']
 2015-06-12,['QRVO'],['LO']
 2015-07-01,"['BXLT', 'JBHT']",['QEP']
@@ -459,12 +459,12 @@ date,added_tickers,removed_tickers
 2015-07-20,['PYPL'],
 2015-08-31,['ATVI'],
 2015-09-03,['UAL'],['HSP']
-2015-09-21,"['CMCSK', 'NWS']",
+2015-09-21,"['NWS', 'CMCSK']",
 2015-10-08,['VRSK'],['JOY']
 2015-11-02,['HPE'],['HCBK']
 2015-11-10,['FCPT'],
 2015-11-17,,['FCPT']
-2015-11-18,['SYF'],"['SIAL', 'GNW']"
+2015-11-18,['SYF'],"['GNW', 'SIAL']"
 2015-11-19,['ILMN'],
 2015-11-30,['CSRA'],
 2015-12-01,,['DXC']
@@ -473,7 +473,7 @@ date,added_tickers,removed_tickers
 2016-01-04,['CPRI'],
 2016-01-05,['WLTW'],
 2016-01-19,['EXR'],
-2016-02-01,"['CFG', 'FRT']",['BRCM']
+2016-02-01,"['FRT', 'CFG']",['BRCM']
 2016-02-22,['CXO'],
 2016-03-03,,['GMCR']
 2016-03-04,['AWK'],['CNX']
@@ -492,7 +492,7 @@ date,added_tickers,removed_tickers
 2016-06-03,['TDG'],['BXLT']
 2016-06-21,,['CVC']
 2016-06-24,['FBHS'],
-2016-07-01,"['LNT', 'ALB']","['TE', 'CPGX']"
+2016-07-01,"['ALB', 'LNT']","['TE', 'CPGX']"
 2016-07-05,['FTV'],
 2016-09-06,['MTD'],
 2016-09-08,['CHTR'],
@@ -505,14 +505,14 @@ date,added_tickers,removed_tickers
 2017-03-02,['REG'],['ENDP']
 2017-03-13,['DISH'],['LLTC']
 2017-03-16,['SNPS'],
-2017-03-20,"['RJF', 'AMD', 'ARE']","['FTR', 'FSLR']"
+2017-03-20,"['AMD', 'RJF', 'ARE']","['FTR', 'FSLR']"
 2017-04-04,['DXC'],['SWN']
 2017-04-05,['IT'],
 2017-06-02,['INFO'],['TGNA']
 2017-06-15,,['MJN']
-2017-06-19,"['ALGN', 'ANSS', 'HLT', 'RE']","['TDC', 'R']"
+2017-06-19,"['RE', 'HLT', 'ANSS', 'ALGN']","['TDC', 'R']"
 2017-07-25,,['RAI']
-2017-07-26,"['MGM', 'DRE', 'AOS', 'RMD', 'PKG']","['BBBY', 'MUR']"
+2017-07-26,"['RMD', 'AOS', 'MGM', 'PKG', 'DRE']","['BBBY', 'MUR']"
 2017-08-07,['BHF'],
 2017-08-08,,['AN']
 2017-08-28,,['WFM']
@@ -524,7 +524,7 @@ date,added_tickers,removed_tickers
 2017-12-29,,['BCR']
 2018-01-03,['HII'],
 2018-03-07,['IPGP'],['SNI']
-2018-03-19,"['SIVB', 'TTWO', 'NKTR']",['PDCO']
+2018-03-19,"['TTWO', 'NKTR', 'SIVB']",['PDCO']
 2018-04-04,['MSCI'],['CSRA']
 2018-05-31,['ABMD'],
 2018-06-05,['EVRG'],['NAVI']
@@ -542,7 +542,7 @@ date,added_tickers,removed_tickers
 2018-11-13,['JKHY'],['EQT']
 2018-11-27,,['COL']
 2018-11-29,,['AET']
-2018-12-03,"['FANG', 'LW', 'MXIM']",['SRCL']
+2018-12-03,"['FANG', 'MXIM', 'LW']",['SRCL']
 2018-12-21,,['ESRX']
 2018-12-24,['CE'],
 2019-01-02,['FRC'],['SCG']
@@ -551,7 +551,7 @@ date,added_tickers,removed_tickers
 2019-02-27,['WAB'],['GT']
 2019-04-02,,['BHF']
 2019-06-01,['LHX'],['HRS']
-2019-06-03,"['CTVA', 'DD']","['DWDP', 'FLR']"
+2019-06-03,"['DD', 'CTVA']","['DWDP', 'FLR']"
 2019-06-07,['AMCR'],['MAT']
 2019-07-01,['MKTX'],
 2019-07-15,['TMUS'],['RHT']
@@ -561,21 +561,21 @@ date,added_tickers,removed_tickers
 2019-09-26,['NVR'],['JEF']
 2019-10-03,['LVS'],['NKTR']
 2019-10-18,['BKR'],
-2019-11-05,"['PEAK', 'NLOK']",['SYMC']
+2019-11-05,"['NLOK', 'PEAK']",['SYMC']
 2019-11-21,['NOW'],['CELG']
-2019-12-05,"['WRB', 'VIAC']","['CBS', 'VIAB']"
-2019-12-09,"['ODFL', 'TFC']","['STI', 'BBT']"
+2019-12-05,"['VIAC', 'WRB']","['CBS', 'VIAB']"
+2019-12-09,"['TFC', 'ODFL']","['STI', 'BBT']"
 2019-12-10,['J'],['JEC']
-2019-12-23,"['LYV', 'ZBRA', 'STE']","['MAC', 'TRIP', 'AMG']"
+2019-12-23,"['STE', 'LYV', 'ZBRA']","['TRIP', 'MAC', 'AMG']"
 2020-01-28,['PAYC'],['WCG']
 2020-03-03,['TT'],['XEC']
 2020-04-03,"['CARR', 'RTX', 'OTIS']",['UTX']
-2020-04-06,['HWM'],"['M', 'RTN']"
+2020-04-06,['HWM'],"['RTN', 'M']"
 2020-05-12,"['DPZ', 'DXCM']",['CPRI']
 2020-05-22,['WST'],['HP']
-2020-06-22,"['BIO', 'TDY', 'TYL']","['HOG', 'ADS', 'JWN']"
+2020-06-22,"['BIO', 'TDY', 'TYL']","['HOG', 'JWN', 'ADS']"
 2020-09-18,['LUMN'],['CTL']
-2020-09-21,"['ETSY', 'TER', 'CTLT']","['HRB', 'KSS', 'COTY']"
+2020-09-21,"['TER', 'CTLT', 'ETSY']","['COTY', 'KSS', 'HRB']"
 2020-10-07,['POOL'],['ETFC']
 2020-10-12,['VNT'],['NBL']
 2020-11-17,['VTRS'],['MYL']
@@ -583,43 +583,43 @@ date,added_tickers,removed_tickers
 2021-01-07,['ENPH'],['TIF']
 2021-01-21,['TRMB'],['CXO']
 2021-02-12,['MPWR'],['FTI']
-2021-03-22,"['NXPI', 'GNRC', 'CZR', 'PENN']","['SLG', 'XRX', 'FLS', 'VNT']"
+2021-03-22,"['NXPI', 'GNRC', 'CZR', 'PENN']","['FLS', 'VNT', 'XRX', 'SLG']"
 2021-04-20,['PTC'],['VAR']
 2021-05-14,['CRL'],['FLIR']
 2021-06-04,['OGN'],['HFC']
 2021-07-21,['MRNA'],['ALXN']
 2021-08-03,['BBWI'],['LB']
 2021-08-30,['TECH'],['MXIM']
-2021-09-20,"['BRO', 'MTCH', 'CDAY']","['NOV', 'PRGO', 'UNM']"
+2021-09-20,"['BRO', 'CDAY', 'MTCH']","['UNM', 'NOV', 'PRGO']"
 2021-10-04,['CTRA'],['COG']
 2021-12-14,['EPAM'],['KSU']
-2021-12-20,"['FDS', 'SEDG', 'SBNY']","['WU', 'HBI', 'LEG']"
+2021-12-20,"['FDS', 'SEDG', 'SBNY']","['WU', 'LEG', 'HBI']"
 2022-01-20,['WTW'],['WLTW']
 2022-02-02,,['GPS']
 2022-02-15,['NDSN'],['XLNX']
 2022-02-17,['PARA'],['VIAC']
 2022-03-02,['MOH'],['INFO']
 2022-04-04,['CPT'],['PBCT']
-2022-04-11,['WBD'],"['DISCK', 'DISCA']"
+2022-04-11,['WBD'],"['DISCA', 'DISCK']"
 2022-05-10,['BALL'],['BLL']
 2022-06-08,['VICI'],['CERN']
 2022-06-09,['META'],['FB']
-2022-06-21,"['KDP', 'ON']","['UA', 'UAA', 'IPGP']"
+2022-06-21,"['ON', 'KDP']","['UA', 'IPGP', 'UAA']"
 2022-06-28,['ELV'],['ANTM']
-2022-09-19,"['INVH', 'CSGP']","['PVH', 'PENN']"
-2022-10-03,"['EQT', 'PCG']","['CTXS', 'DRE']"
+2022-09-19,"['CSGP', 'INVH']","['PVH', 'PENN']"
+2022-10-03,"['PCG', 'EQT']","['DRE', 'CTXS']"
 2022-10-12,['TRGP'],['NLSN']
 2022-11-01,['ACGL'],['TWTR']
 2022-11-08,['GEN'],['NLOK']
 2022-12-19,['FSLR'],['FBHS']
 2022-12-22,['STLD'],['ABMD']
 2023-01-04,['GEHC'],['VNO']
-2023-03-15,"['BG', 'PODD']","['SIVB', 'SBNY']"
+2023-03-15,"['BG', 'PODD']","['SBNY', 'SIVB']"
 2023-03-20,['FICO'],['LUMN']
 2023-05-07,['AXON'],['FRC']
-2023-05-09,"['BF.B', 'BRK.B']","['BRK-B', 'BF-B']"
+2023-05-09,"['BRK.B', 'BF.B']","['BRK-B', 'BF-B']"
 2023-05-14,['BF-B'],['BF.B']
-2023-05-17,"['CEG', 'IR', 'FOX', 'DOW', 'FOXA']",
+2023-05-17,"['CEG', 'FOX', 'IR', 'DOW', 'FOXA']",
 2023-05-18,['RVTY'],['PKI']
 2023-06-03,['PANW'],['DISH']
 2023-06-04,['DISH'],['PANW']
@@ -637,7 +637,7 @@ date,added_tickers,removed_tickers
 2023-10-06,['VLTO'],['DXC']
 2023-10-14,,['ATVI']
 2023-10-18,"['LULU', 'HUBB']",['OGN']
-2023-12-17,"['JBL', 'BLDR', 'UBER']","['SEDG', 'SEE', 'ALK']"
+2023-12-17,"['UBER', 'JBL', 'BLDR']","['SEDG', 'ALK', 'SEE']"
 2023-12-31,['RVTY (Previously PKI)'],['RVTY']
 2024-01-01,['RVTY'],['RVTY (Previously PKI)']
 2024-02-02,['DAY'],['CDAY']
@@ -650,7 +650,7 @@ date,added_tickers,removed_tickers
 2024-04-04,,"['VFC', 'XRAY']"
 2024-05-04,,['PXD']
 2024-05-08,['VST'],
-2024-06-23,"['KKR', 'GDDY', 'CRWD']","['CMA', 'ILMN', 'RHI']"
+2024-06-23,"['GDDY', 'CRWD', 'KKR']","['RHI', 'ILMN', 'CMA']"
 2024-07-09,,['WRK']
 2024-07-12,['SW'],
 2024-08-04,['BF.B'],['BF-B']
