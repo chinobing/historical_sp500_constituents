@@ -8,14 +8,14 @@ List of S&amp;P 500 historical constituents from 1996/01/02 to present. CSV form
 **'sp_500_historical_components.csv'**  contains historical S&P 500 index membership from 1996 til present. Output from **'sp500.py'**
 
 ## Latest Changes
-S&P500 Constituents Auto Renew at **2024-09-05 12:35:31**
+S&P500 Constituents Auto Renew at **2024-09-06 01:20:09**
 
 | date       | added_tickers                       | removed_tickers           |
 |:-----------|:------------------------------------|:--------------------------|
 | 2024-08-04 | ['BF.B']                            | ['BF-B']                  |
 | 2024-07-12 | ['SW']                              | nan                       |
 | 2024-07-09 | nan                                 | ['WRK']                   |
-| 2024-06-23 | ['CRWD', 'KKR', 'GDDY']             | ['CMA', 'ILMN', 'RHI']    |
+| 2024-06-23 | ['GDDY', 'KKR', 'CRWD']             | ['RHI', 'CMA', 'ILMN']    |
 | 2024-05-08 | ['VST']                             | nan                       |
 | 2024-05-04 | nan                                 | ['PXD']                   |
 | 2024-04-04 | nan                                 | ['XRAY', 'VFC']           |
@@ -28,8 +28,8 @@ S&P500 Constituents Auto Renew at **2024-09-05 12:35:31**
 | 2024-02-02 | ['DAY']                             | ['CDAY']                  |
 | 2024-01-01 | ['RVTY']                            | ['RVTY (Previously PKI)'] |
 | 2023-12-31 | ['RVTY (Previously PKI)']           | ['RVTY']                  |
-| 2023-12-17 | ['JBL', 'UBER', 'BLDR']             | ['ALK', 'SEDG', 'SEE']    |
-| 2023-10-18 | ['HUBB', 'LULU']                    | ['OGN']                   |
+| 2023-12-17 | ['BLDR', 'JBL', 'UBER']             | ['SEE', 'ALK', 'SEDG']    |
+| 2023-10-18 | ['LULU', 'HUBB']                    | ['OGN']                   |
 | 2023-10-14 | nan                                 | ['ATVI']                  |
 | 2023-10-06 | ['VLTO']                            | ['DXC']                   |
 | 2023-09-26 | ['BRK.B']                           | ['BRK-B']                 |
@@ -46,9 +46,9 @@ S&P500 Constituents Auto Renew at **2024-09-05 12:35:31**
 | 2023-06-04 | ['DISH']                            | ['PANW']                  |
 | 2023-06-03 | ['PANW']                            | ['DISH']                  |
 | 2023-05-18 | ['RVTY']                            | ['PKI']                   |
-| 2023-05-17 | ['FOXA', 'CEG', 'IR', 'FOX', 'DOW'] | nan                       |
+| 2023-05-17 | ['FOX', 'FOXA', 'CEG', 'IR', 'DOW'] | nan                       |
 | 2023-05-14 | ['BF-B']                            | ['BF.B']                  |
-| 2023-05-09 | ['BF.B', 'BRK.B']                   | ['BRK-B', 'BF-B']         |
+| 2023-05-09 | ['BRK.B', 'BF.B']                   | ['BRK-B', 'BF-B']         |
 | 2023-05-07 | ['AXON']                            | ['FRC']                   |
 | 2023-03-20 | ['FICO']                            | ['LUMN']                  |
 | 2023-03-15 | ['BG', 'PODD']                      | ['SBNY', 'SIVB']          |
@@ -61,4 +61,4 @@ S&P500 Constituents Auto Renew at **2024-09-05 12:35:31**
 | 2022-10-03 | ['EQT', 'PCG']                      | ['DRE', 'CTXS']           |
 | 2022-09-19 | ['CSGP', 'INVH']                    | ['PENN', 'PVH']           |
 | 2022-06-28 | ['ELV']                             | ['ANTM']                  |
-| 2022-06-21 | ['ON', 'KDP']                       | ['IPGP', 'UAA', 'UA']     |
+| 2022-06-21 | ['KDP', 'ON']                       | ['UAA', 'IPGP', 'UA']     |
