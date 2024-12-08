@@ -56,7 +56,7 @@ def main():
     sp_500_constituents.to_csv('sp500_constituents.csv', index=False)
     sp_500_constituents.drop(['gics sector', 'gics sub-industry',
                               'headquarters location', 'date added',
-                              'cik', 'founded', 'security'], axis=1, inplace=True)
+                              'cik', 'founded'], axis=1, inplace=True)
 
     sp_500_constituents.columns = ['ticker', 'date']
     sp_500_constituents.sort_values(by='ticker', ascending=True,inplace=True)
