@@ -57,7 +57,8 @@ def main():
     sp_500_constituents.drop(['gics sector', 'gics sub-industry',
                               'headquarters location', 'date added',
                               'cik', 'founded'], axis=1, inplace=True)
-
+    
+    sp_500_constituents = sp_500_constituents.rename(columns={'symbol': 'ticker'})
     sp_500_constituents.columns = ['ticker', 'date']
     sp_500_constituents.sort_values(by='ticker', ascending=True,inplace=True)
 
