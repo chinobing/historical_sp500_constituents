@@ -53,6 +53,7 @@ def main():
     sp_500_url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
     sp_500_constituents = pd.read_html(sp_500_url, header=0)[0].rename(columns=str.lower)
     sp_500_constituents['date'] = date.today()
+    sp_500_constituents = sp_500_constituents.rename(columns={'company': 'security'})
     sp_500_constituents.to_csv('sp500_constituents.csv', index=False)
     sp_500_constituents.drop(['gics sector', 'gics sub-industry',
                               'headquarters location', 'date added',
