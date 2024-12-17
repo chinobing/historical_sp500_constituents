@@ -8,18 +8,18 @@ List of S&amp;P 500 historical constituents from 1996/01/02 to present. CSV form
 **'sp_500_historical_components.csv'**  contains historical S&P 500 index membership from 1996 til present. Output from **'sp500.py'**
 
 ## Latest Changes
-S&P500 Constituents Auto Renew at **2024-12-17 01:40:15**
+S&P500 Constituents Auto Renew at **2024-12-17 12:40:40**
 
 | date       | added_tickers                       | removed_tickers           |
 |:-----------|:------------------------------------|:--------------------------|
 | 2024-11-26 | ['TPL']                             | nan                       |
 | 2024-11-23 | nan                                 | ['MRO']                   |
 | 2024-10-01 | ['AMTM']                            | ['BBWI']                  |
-| 2024-09-22 | ['DELL', 'PLTR', 'ERIE']            | ['AAL', 'ETSY', 'BIO']    |
+| 2024-09-22 | ['ERIE', 'DELL', 'PLTR']            | ['AAL', 'BIO', 'ETSY']    |
 | 2024-08-04 | ['BF.B']                            | ['BF-B']                  |
 | 2024-07-12 | ['SW']                              | nan                       |
 | 2024-07-09 | nan                                 | ['WRK']                   |
-| 2024-06-23 | ['GDDY', 'KKR', 'CRWD']             | ['RHI', 'ILMN', 'CMA']    |
+| 2024-06-23 | ['GDDY', 'CRWD', 'KKR']             | ['ILMN', 'CMA', 'RHI']    |
 | 2024-05-08 | ['VST']                             | nan                       |
 | 2024-05-04 | nan                                 | ['PXD']                   |
 | 2024-04-04 | nan                                 | ['VFC', 'XRAY']           |
@@ -32,7 +32,7 @@ S&P500 Constituents Auto Renew at **2024-12-17 01:40:15**
 | 2024-02-02 | ['DAY']                             | ['CDAY']                  |
 | 2024-01-01 | ['RVTY']                            | ['RVTY (Previously PKI)'] |
 | 2023-12-31 | ['RVTY (Previously PKI)']           | ['RVTY']                  |
-| 2023-12-17 | ['UBER', 'JBL', 'BLDR']             | ['SEE', 'ALK', 'SEDG']    |
+| 2023-12-17 | ['JBL', 'BLDR', 'UBER']             | ['SEDG', 'ALK', 'SEE']    |
 | 2023-10-18 | ['LULU', 'HUBB']                    | ['OGN']                   |
 | 2023-10-14 | nan                                 | ['ATVI']                  |
 | 2023-10-06 | ['VLTO']                            | ['DXC']                   |
@@ -50,9 +50,9 @@ S&P500 Constituents Auto Renew at **2024-12-17 01:40:15**
 | 2023-06-04 | ['DISH']                            | ['PANW']                  |
 | 2023-06-03 | ['PANW']                            | ['DISH']                  |
 | 2023-05-18 | ['RVTY']                            | ['PKI']                   |
-| 2023-05-17 | ['FOX', 'FOXA', 'CEG', 'DOW', 'IR'] | nan                       |
+| 2023-05-17 | ['FOXA', 'IR', 'DOW', 'CEG', 'FOX'] | nan                       |
 | 2023-05-14 | ['BF-B']                            | ['BF.B']                  |
-| 2023-05-09 | ['BRK.B', 'BF.B']                   | ['BF-B', 'BRK-B']         |
+| 2023-05-09 | ['BF.B', 'BRK.B']                   | ['BF-B', 'BRK-B']         |
 | 2023-05-07 | ['AXON']                            | ['FRC']                   |
 | 2023-03-20 | ['FICO']                            | ['LUMN']                  |
 | 2023-03-15 | ['BG', 'PODD']                      | ['SIVB', 'SBNY']          |
