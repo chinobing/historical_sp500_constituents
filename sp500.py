@@ -1,6 +1,7 @@
 import os
 from datetime import date, datetime
 import pandas as pd
+import requests
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
@@ -46,12 +47,18 @@ def diff_tickers(sp500):
 
 
 def main():
+    header = {
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.75 Safari/537.36",
+      "X-Requested-With": "XMLHttpRequest"
+    }
+
     # read historical data
     sp500_hist = pd.read_csv('sp_500_historical_components.csv')
 
     # current companies
     sp_500_url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-    sp_500_constituents = pd.read_html(sp_500_url, header=0)[0].rename(columns=str.lower)
+    r = requests.get(sp_500_url, headers=header)
+    sp_500_constituents = pd.read_html(r.text, header=0)[0].rename(columns=str.lower)
     sp_500_constituents['date'] = date.today()
     sp_500_constituents = sp_500_constituents.rename(columns={'company': 'security'})
     sp_500_constituents.to_csv('sp500_constituents.csv', index=False)
@@ -103,3 +110,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
