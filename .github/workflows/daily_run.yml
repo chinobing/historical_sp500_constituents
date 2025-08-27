@@ -32,6 +32,7 @@ jobs:
           pip install pandas
           pip install tabulate
           pip install lxml
+          pip install requests
       - name: ls_show
         run: |
           python sp500.py
