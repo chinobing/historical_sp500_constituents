@@ -8,7 +8,7 @@ List of S&amp;P 500 historical constituents from 1996/01/02 to present. CSV form
 **'sp_500_historical_components.csv'**  contains historical S&P 500 index membership from 1996 til present. Output from **'sp500.py'**
 
 ## Latest Changes
-S&P500 Constituents Auto Renew at **2025-10-19 12:38:56**
+S&P500 Constituents Auto Renew at **2025-10-20 01:48:13**
 
 | date       | added_tickers                 | removed_tickers             |
 |:-----------|:------------------------------|:----------------------------|
@@ -27,21 +27,21 @@ S&P500 Constituents Auto Renew at **2025-10-19 12:38:56**
 | 2025-05-17 | ['COIN']                      | ['DFS']                     |
 | 2025-05-14 | nan                           | ['COIN']                    |
 | 2025-05-13 | ['COIN']                      | nan                         |
-| 2025-03-25 | ['EXE', 'WSM', 'TKO', 'DASH'] | ['CE', 'FMC', 'BWA', 'TFX'] |
-| 2024-12-26 | ['WDAY', 'APO']               | ['QRVO', 'AMTM']            |
+| 2025-03-25 | ['TKO', 'DASH', 'WSM', 'EXE'] | ['BWA', 'FMC', 'CE', 'TFX'] |
+| 2024-12-26 | ['WDAY', 'APO']               | ['AMTM', 'QRVO']            |
 | 2024-12-24 | ['LII']                       | nan                         |
 | 2024-12-19 | nan                           | ['CTLT']                    |
 | 2024-11-26 | ['TPL']                       | nan                         |
 | 2024-11-23 | nan                           | ['MRO']                     |
 | 2024-10-01 | ['AMTM']                      | ['BBWI']                    |
-| 2024-09-22 | ['PLTR', 'DELL', 'ERIE']      | ['BIO', 'ETSY', 'AAL']      |
+| 2024-09-22 | ['DELL', 'ERIE', 'PLTR']      | ['ETSY', 'BIO', 'AAL']      |
 | 2024-08-04 | ['BF.B']                      | ['BF-B']                    |
 | 2024-07-12 | ['SW']                        | nan                         |
 | 2024-07-09 | nan                           | ['WRK']                     |
-| 2024-06-23 | ['KKR', 'CRWD', 'GDDY']       | ['CMA', 'RHI', 'ILMN']      |
+| 2024-06-23 | ['KKR', 'GDDY', 'CRWD']       | ['CMA', 'RHI', 'ILMN']      |
 | 2024-05-08 | ['VST']                       | nan                         |
 | 2024-05-04 | nan                           | ['PXD']                     |
-| 2024-04-04 | nan                           | ['VFC', 'XRAY']             |
+| 2024-04-04 | nan                           | ['XRAY', 'VFC']             |
 | 2024-04-03 | ['GEV']                       | nan                         |
 | 2024-04-02 | ['SOLV']                      | nan                         |
 | 2024-03-27 | ['CPAY']                      | nan                         |
@@ -51,13 +51,13 @@ S&P500 Constituents Auto Renew at **2025-10-19 12:38:56**
 | 2024-02-02 | ['DAY']                       | ['CDAY']                    |
 | 2024-01-01 | ['RVTY']                      | ['RVTY (Previously PKI)']   |
 | 2023-12-31 | ['RVTY (Previously PKI)']     | ['RVTY']                    |
-| 2023-12-17 | ['BLDR', 'JBL', 'UBER']       | ['ALK', 'SEDG', 'SEE']      |
+| 2023-12-17 | ['UBER', 'JBL', 'BLDR']       | ['SEDG', 'SEE', 'ALK']      |
 | 2023-10-18 | ['HUBB', 'LULU']              | ['OGN']                     |
 | 2023-10-14 | nan                           | ['ATVI']                    |
 | 2023-10-06 | ['VLTO']                      | ['DXC']                     |
 | 2023-09-26 | ['BRK.B']                     | ['BRK-B']                   |
 | 2023-09-24 | ['BRK-B']                     | ['BRK.B']                   |
-| 2023-09-18 | ['BX', 'ABNB']                | ['NWL', 'LNC']              |
+| 2023-09-18 | ['ABNB', 'BX']                | ['NWL', 'LNC']              |
 | 2023-09-03 | ['COR']                       | nan                         |
 | 2023-09-02 | nan                           | ['ABC']                     |
 | 2023-09-01 | ['ABC']                       | nan                         |
