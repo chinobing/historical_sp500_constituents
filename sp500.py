@@ -58,7 +58,7 @@ def main():
     # current companies
     sp_500_url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
     r = requests.get(sp_500_url, headers=header)
-    sp_500_constituents = pd.read_html(r.text, header=0)[0].rename(columns=str.lower)
+    sp_500_constituents = pd.read_html(r.text, header=0)[1].rename(columns=str.lower)
     sp_500_constituents['date'] = date.today()
     sp_500_constituents = sp_500_constituents.rename(columns={'company': 'security'})
     sp_500_constituents.to_csv('sp500_constituents.csv', index=False)
@@ -110,4 +110,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
