@@ -8,7 +8,7 @@ List of S&amp;P 500 historical constituents from 1996/01/02 to present. CSV form
 **'sp_500_historical_components.csv'**  contains historical S&P 500 index membership from 1996 til present. Output from **'sp500.py'**
 
 ## Latest Changes
-S&P500 Constituents Auto Renew at **2026-01-27 12:57:03**
+S&P500 Constituents Auto Renew at **2026-01-28 02:00:09**
 
 | date       | added_tickers                 | removed_tickers             |
 |:-----------|:------------------------------|:----------------------------|
@@ -23,9 +23,9 @@ S&P500 Constituents Auto Renew at **2026-01-27 12:57:03**
 | 2025-11-13 | ['FISV']                      | ['FI']                      |
 | 2025-11-06 | ['Q']                         | ['EMN']                     |
 | 2025-10-31 | ['SOLS']                      | ['KMX']                     |
-| 2025-09-23 | ['EME', 'APP', 'HOOD']        | ['MKTX', 'CZR', 'ENPH']     |
-| 2025-09-09 | ['MKTX', 'CZR', 'ENPH']       | ['EME', 'APP', 'HOOD']      |
-| 2025-09-06 | ['EME', 'APP', 'HOOD']        | ['MKTX', 'CZR', 'ENPH']     |
+| 2025-09-23 | ['HOOD', 'APP', 'EME']        | ['MKTX', 'ENPH', 'CZR']     |
+| 2025-09-09 | ['MKTX', 'ENPH', 'CZR']       | ['HOOD', 'APP', 'EME']      |
+| 2025-09-06 | ['HOOD', 'APP', 'EME']        | ['MKTX', 'ENPH', 'CZR']     |
 | 2025-08-30 | nan                           | ['WBA']                     |
 | 2025-08-27 | ['IBKR']                      | nan                         |
 | 2025-08-12 | ['PSKY']                      | nan                         |
@@ -38,18 +38,18 @@ S&P500 Constituents Auto Renew at **2026-01-27 12:57:03**
 | 2025-05-17 | ['COIN']                      | ['DFS']                     |
 | 2025-05-14 | nan                           | ['COIN']                    |
 | 2025-05-13 | ['COIN']                      | nan                         |
-| 2025-03-25 | ['EXE', 'DASH', 'TKO', 'WSM'] | ['CE', 'FMC', 'BWA', 'TFX'] |
-| 2024-12-26 | ['WDAY', 'APO']               | ['AMTM', 'QRVO']            |
+| 2025-03-25 | ['TKO', 'DASH', 'WSM', 'EXE'] | ['CE', 'TFX', 'FMC', 'BWA'] |
+| 2024-12-26 | ['WDAY', 'APO']               | ['QRVO', 'AMTM']            |
 | 2024-12-24 | ['LII']                       | nan                         |
 | 2024-12-19 | nan                           | ['CTLT']                    |
 | 2024-11-26 | ['TPL']                       | nan                         |
 | 2024-11-23 | nan                           | ['MRO']                     |
 | 2024-10-01 | ['AMTM']                      | ['BBWI']                    |
-| 2024-09-22 | ['PLTR', 'ERIE', 'DELL']      | ['BIO', 'AAL', 'ETSY']      |
+| 2024-09-22 | ['PLTR', 'ERIE', 'DELL']      | ['BIO', 'ETSY', 'AAL']      |
 | 2024-08-04 | ['BF.B']                      | ['BF-B']                    |
 | 2024-07-12 | ['SW']                        | nan                         |
 | 2024-07-09 | nan                           | ['WRK']                     |
-| 2024-06-23 | ['CRWD', 'KKR', 'GDDY']       | ['RHI', 'ILMN', 'CMA']      |
+| 2024-06-23 | ['KKR', 'CRWD', 'GDDY']       | ['ILMN', 'CMA', 'RHI']      |
 | 2024-05-08 | ['VST']                       | nan                         |
 | 2024-05-04 | nan                           | ['PXD']                     |
 | 2024-04-04 | nan                           | ['VFC', 'XRAY']             |
@@ -57,7 +57,7 @@ S&P500 Constituents Auto Renew at **2026-01-27 12:57:03**
 | 2024-04-02 | ['SOLV']                      | nan                         |
 | 2024-03-27 | ['CPAY']                      | nan                         |
 | 2024-03-26 | nan                           | ['FLT']                     |
-| 2024-03-18 | ['DECK', 'SMCI']              | ['ZION', 'WHR']             |
+| 2024-03-18 | ['DECK', 'SMCI']              | ['WHR', 'ZION']             |
 | 2024-03-04 | ['DOC']                       | ['PEAK']                    |
 | 2024-02-02 | ['DAY']                       | ['CDAY']                    |
 | 2024-01-01 | ['RVTY']                      | ['RVTY (Previously PKI)']   |
