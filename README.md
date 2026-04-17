@@ -8,12 +8,12 @@ List of S&amp;P 500 historical constituents from 1996/01/02 to present. CSV form
 **'sp_500_historical_components.csv'**  contains historical S&P 500 index membership from 1996 til present. Output from **'sp500.py'**
 
 ## Latest Changes
-S&P500 Constituents Auto Renew at **2026-04-16 13:52:32**
+S&P500 Constituents Auto Renew at **2026-04-17 02:49:45**
 
 | date       | added_tickers                   | removed_tickers               |
 |:-----------|:--------------------------------|:------------------------------|
 | 2026-04-09 | ['CASY']                        | ['HOLX']                      |
-| 2026-03-25 | ['VRT', 'SATS', 'LITE', 'COHR'] | ['PAYC', 'LW', 'MTCH', 'MOH'] |
+| 2026-03-25 | ['SATS', 'VRT', 'COHR', 'LITE'] | ['LW', 'MOH', 'MTCH', 'PAYC'] |
 | 2026-02-08 | ['CIEN']                        | nan                           |
 | 2026-02-05 | nan                             | ['DAY']                       |
 | 2026-01-15 | ['MRSH']                        | ['MMC']                       |
@@ -27,9 +27,9 @@ S&P500 Constituents Auto Renew at **2026-04-16 13:52:32**
 | 2025-11-13 | ['FISV']                        | ['FI']                        |
 | 2025-11-06 | ['Q']                           | ['EMN']                       |
 | 2025-10-31 | ['SOLS']                        | ['KMX']                       |
-| 2025-09-23 | ['APP', 'HOOD', 'EME']          | ['MKTX', 'ENPH', 'CZR']       |
-| 2025-09-09 | ['MKTX', 'ENPH', 'CZR']         | ['APP', 'HOOD', 'EME']        |
-| 2025-09-06 | ['APP', 'HOOD', 'EME']          | ['MKTX', 'ENPH', 'CZR']       |
+| 2025-09-23 | ['EME', 'APP', 'HOOD']          | ['MKTX', 'CZR', 'ENPH']       |
+| 2025-09-09 | ['MKTX', 'CZR', 'ENPH']         | ['EME', 'APP', 'HOOD']        |
+| 2025-09-06 | ['EME', 'APP', 'HOOD']          | ['MKTX', 'CZR', 'ENPH']       |
 | 2025-08-30 | nan                             | ['WBA']                       |
 | 2025-08-27 | ['IBKR']                        | nan                           |
 | 2025-08-12 | ['PSKY']                        | nan                           |
@@ -42,23 +42,23 @@ S&P500 Constituents Auto Renew at **2026-04-16 13:52:32**
 | 2025-05-17 | ['COIN']                        | ['DFS']                       |
 | 2025-05-14 | nan                             | ['COIN']                      |
 | 2025-05-13 | ['COIN']                        | nan                           |
-| 2025-03-25 | ['TKO', 'WSM', 'EXE', 'DASH']   | ['FMC', 'CE', 'TFX', 'BWA']   |
-| 2024-12-26 | ['WDAY', 'APO']                 | ['AMTM', 'QRVO']              |
+| 2025-03-25 | ['TKO', 'EXE', 'WSM', 'DASH']   | ['CE', 'TFX', 'FMC', 'BWA']   |
+| 2024-12-26 | ['APO', 'WDAY']                 | ['AMTM', 'QRVO']              |
 | 2024-12-24 | ['LII']                         | nan                           |
 | 2024-12-19 | nan                             | ['CTLT']                      |
 | 2024-11-26 | ['TPL']                         | nan                           |
 | 2024-11-23 | nan                             | ['MRO']                       |
 | 2024-10-01 | ['AMTM']                        | ['BBWI']                      |
-| 2024-09-22 | ['PLTR', 'ERIE', 'DELL']        | ['ETSY', 'BIO', 'AAL']        |
+| 2024-09-22 | ['PLTR', 'ERIE', 'DELL']        | ['BIO', 'ETSY', 'AAL']        |
 | 2024-08-04 | ['BF.B']                        | ['BF-B']                      |
 | 2024-07-12 | ['SW']                          | nan                           |
 | 2024-07-09 | nan                             | ['WRK']                       |
-| 2024-06-23 | ['KKR', 'CRWD', 'GDDY']         | ['RHI', 'CMA', 'ILMN']        |
+| 2024-06-23 | ['GDDY', 'KKR', 'CRWD']         | ['CMA', 'ILMN', 'RHI']        |
 | 2024-05-08 | ['VST']                         | nan                           |
 | 2024-05-04 | nan                             | ['PXD']                       |
-| 2024-04-04 | nan                             | ['VFC', 'XRAY']               |
+| 2024-04-04 | nan                             | ['XRAY', 'VFC']               |
 | 2024-04-03 | ['GEV']                         | nan                           |
 | 2024-04-02 | ['SOLV']                        | nan                           |
 | 2024-03-27 | ['CPAY']                        | nan                           |
 | 2024-03-26 | nan                             | ['FLT']                       |
-| 2024-03-18 | ['SMCI', 'DECK']                | ['WHR', 'ZION']               |
+| 2024-03-18 | ['DECK', 'SMCI']                | ['WHR', 'ZION']               |
