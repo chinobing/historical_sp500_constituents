@@ -8,16 +8,16 @@ List of S&amp;P 500 historical constituents from 1996/01/02 to present. CSV form
 **'sp_500_historical_components.csv'**  contains historical S&P 500 index membership from 1996 til present. Output from **'sp500.py'**
 
 ## Latest Changes
-S&P500 Constituents Auto Renew at **2026-04-19 13:07:54**
+S&P500 Constituents Auto Renew at **2026-04-20 02:57:03**
 
 | date       | added_tickers                   | removed_tickers               |
 |:-----------|:--------------------------------|:------------------------------|
 | 2026-04-09 | ['CASY']                        | ['HOLX']                      |
-| 2026-03-25 | ['SATS', 'COHR', 'VRT', 'LITE'] | ['MOH', 'PAYC', 'LW', 'MTCH'] |
+| 2026-03-25 | ['SATS', 'COHR', 'LITE', 'VRT'] | ['MOH', 'LW', 'MTCH', 'PAYC'] |
 | 2026-02-08 | ['CIEN']                        | nan                           |
 | 2026-02-05 | nan                             | ['DAY']                       |
 | 2026-01-15 | ['MRSH']                        | ['MMC']                       |
-| 2026-01-02 | ['CVNA', 'CRH']                 | ['SOLS']                      |
+| 2026-01-02 | ['CRH', 'CVNA']                 | ['SOLS']                      |
 | 2026-01-01 | ['FIX']                         | nan                           |
 | 2025-12-24 | nan                             | ['MHK', 'LKQ']                |
 | 2025-12-13 | ['ARES']                        | nan                           |
@@ -27,9 +27,9 @@ S&P500 Constituents Auto Renew at **2026-04-19 13:07:54**
 | 2025-11-13 | ['FISV']                        | ['FI']                        |
 | 2025-11-06 | ['Q']                           | ['EMN']                       |
 | 2025-10-31 | ['SOLS']                        | ['KMX']                       |
-| 2025-09-23 | ['APP', 'EME', 'HOOD']          | ['MKTX', 'ENPH', 'CZR']       |
-| 2025-09-09 | ['MKTX', 'ENPH', 'CZR']         | ['APP', 'EME', 'HOOD']        |
-| 2025-09-06 | ['APP', 'EME', 'HOOD']          | ['MKTX', 'ENPH', 'CZR']       |
+| 2025-09-23 | ['APP', 'HOOD', 'EME']          | ['CZR', 'ENPH', 'MKTX']       |
+| 2025-09-09 | ['CZR', 'ENPH', 'MKTX']         | ['APP', 'HOOD', 'EME']        |
+| 2025-09-06 | ['APP', 'HOOD', 'EME']          | ['CZR', 'ENPH', 'MKTX']       |
 | 2025-08-30 | nan                             | ['WBA']                       |
 | 2025-08-27 | ['IBKR']                        | nan                           |
 | 2025-08-12 | ['PSKY']                        | nan                           |
@@ -42,18 +42,18 @@ S&P500 Constituents Auto Renew at **2026-04-19 13:07:54**
 | 2025-05-17 | ['COIN']                        | ['DFS']                       |
 | 2025-05-14 | nan                             | ['COIN']                      |
 | 2025-05-13 | ['COIN']                        | nan                           |
-| 2025-03-25 | ['WSM', 'EXE', 'TKO', 'DASH']   | ['CE', 'FMC', 'BWA', 'TFX']   |
-| 2024-12-26 | ['APO', 'WDAY']                 | ['QRVO', 'AMTM']              |
+| 2025-03-25 | ['DASH', 'WSM', 'EXE', 'TKO']   | ['CE', 'BWA', 'FMC', 'TFX']   |
+| 2024-12-26 | ['APO', 'WDAY']                 | ['AMTM', 'QRVO']              |
 | 2024-12-24 | ['LII']                         | nan                           |
 | 2024-12-19 | nan                             | ['CTLT']                      |
 | 2024-11-26 | ['TPL']                         | nan                           |
 | 2024-11-23 | nan                             | ['MRO']                       |
 | 2024-10-01 | ['AMTM']                        | ['BBWI']                      |
-| 2024-09-22 | ['ERIE', 'DELL', 'PLTR']        | ['AAL', 'BIO', 'ETSY']        |
+| 2024-09-22 | ['PLTR', 'ERIE', 'DELL']        | ['BIO', 'ETSY', 'AAL']        |
 | 2024-08-04 | ['BF.B']                        | ['BF-B']                      |
 | 2024-07-12 | ['SW']                          | nan                           |
 | 2024-07-09 | nan                             | ['WRK']                       |
-| 2024-06-23 | ['CRWD', 'KKR', 'GDDY']         | ['RHI', 'CMA', 'ILMN']        |
+| 2024-06-23 | ['CRWD', 'GDDY', 'KKR']         | ['CMA', 'ILMN', 'RHI']        |
 | 2024-05-08 | ['VST']                         | nan                           |
 | 2024-05-04 | nan                             | ['PXD']                       |
 | 2024-04-04 | nan                             | ['XRAY', 'VFC']               |
