@@ -8,13 +8,13 @@ List of S&amp;P 500 historical constituents from 1996/01/02 to present. CSV form
 **'sp_500_historical_components.csv'**  contains historical S&P 500 index membership from 1996 til present. Output from **'sp500.py'**
 
 ## Latest Changes
-S&P500 Constituents Auto Renew at **2026-11-06 19:01:11**
+S&P500 Constituents Auto Renew at **2026-11-07 05:09:15**
 
 | date       | added_tickers                   | removed_tickers               |
 |:-----------|:--------------------------------|:------------------------------|
 | 2026-11-05 | ['OKTA']                        | ['KVUE']                      |
-| 2026-10-08 | ['SKYD', 'TWLO', 'VYLR']        | ['PSKY', 'WBD', 'CTVA']       |
-| 2026-09-21 | ['ILMN', 'P', 'BE']             | ['TAP', 'TTD', 'BLDR']        |
+| 2026-10-08 | ['VYLR', 'TWLO', 'SKYD']        | ['PSKY', 'CTVA', 'WBD']       |
+| 2026-09-21 | ['BE', 'ILMN', 'P']             | ['TTD', 'BLDR', 'TAP']        |
 | 2026-08-18 | ['VMRK', 'RDDT']                | ['AVB', 'EQR']                |
 | 2026-08-06 | ['FERG']                        | ['EA']                        |
 | 2026-06-30 | ['HONA']                        | ['CAG']                       |
@@ -24,7 +24,7 @@ S&P500 Constituents Auto Renew at **2026-11-06 19:01:11**
 | 2026-05-22 | ['BNY']                         | ['BK']                        |
 | 2026-05-07 | ['VEEV']                        | ['CTRA']                      |
 | 2026-04-09 | ['CASY']                        | ['HOLX']                      |
-| 2026-03-25 | ['SATS', 'LITE', 'VRT', 'COHR'] | ['MTCH', 'LW', 'PAYC', 'MOH'] |
+| 2026-03-25 | ['VRT', 'COHR', 'SATS', 'LITE'] | ['MOH', 'MTCH', 'PAYC', 'LW'] |
 | 2026-02-08 | ['CIEN']                        | nan                           |
 | 2026-02-05 | nan                             | ['DAY']                       |
 | 2026-01-15 | ['MRSH']                        | ['MMC']                       |
@@ -38,9 +38,9 @@ S&P500 Constituents Auto Renew at **2026-11-06 19:01:11**
 | 2025-11-13 | ['FISV']                        | ['FI']                        |
 | 2025-11-06 | ['Q']                           | ['EMN']                       |
 | 2025-10-31 | ['SOLS']                        | ['KMX']                       |
-| 2025-09-23 | ['HOOD', 'EME', 'APP']          | ['MKTX', 'ENPH', 'CZR']       |
-| 2025-09-09 | ['MKTX', 'ENPH', 'CZR']         | ['HOOD', 'EME', 'APP']        |
-| 2025-09-06 | ['HOOD', 'EME', 'APP']          | ['MKTX', 'ENPH', 'CZR']       |
+| 2025-09-23 | ['EME', 'HOOD', 'APP']          | ['MKTX', 'CZR', 'ENPH']       |
+| 2025-09-09 | ['MKTX', 'CZR', 'ENPH']         | ['EME', 'HOOD', 'APP']        |
+| 2025-09-06 | ['EME', 'HOOD', 'APP']          | ['MKTX', 'CZR', 'ENPH']       |
 | 2025-08-30 | nan                             | ['WBA']                       |
 | 2025-08-27 | ['IBKR']                        | nan                           |
 | 2025-08-12 | ['PSKY']                        | nan                           |
@@ -53,12 +53,12 @@ S&P500 Constituents Auto Renew at **2026-11-06 19:01:11**
 | 2025-05-17 | ['COIN']                        | ['DFS']                       |
 | 2025-05-14 | nan                             | ['COIN']                      |
 | 2025-05-13 | ['COIN']                        | nan                           |
-| 2025-03-25 | ['DASH', 'TKO', 'EXE', 'WSM']   | ['TFX', 'BWA', 'FMC', 'CE']   |
+| 2025-03-25 | ['EXE', 'WSM', 'TKO', 'DASH']   | ['TFX', 'BWA', 'FMC', 'CE']   |
 | 2024-12-26 | ['APO', 'WDAY']                 | ['AMTM', 'QRVO']              |
 | 2024-12-24 | ['LII']                         | nan                           |
 | 2024-12-19 | nan                             | ['CTLT']                      |
 | 2024-11-26 | ['TPL']                         | nan                           |
 | 2024-11-23 | nan                             | ['MRO']                       |
 | 2024-10-01 | ['AMTM']                        | ['BBWI']                      |
-| 2024-09-22 | ['DELL', 'ERIE', 'PLTR']        | ['BIO', 'ETSY', 'AAL']        |
+| 2024-09-22 | ['ERIE', 'DELL', 'PLTR']        | ['AAL', 'ETSY', 'BIO']        |
 | 2024-08-04 | ['BF.B']                        | ['BF-B']                      |
