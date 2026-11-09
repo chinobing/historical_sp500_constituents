@@ -8,14 +8,14 @@ List of S&amp;P 500 historical constituents from 1996/01/02 to present. CSV form
 **'sp_500_historical_components.csv'**  contains historical S&P 500 index membership from 1996 til present. Output from **'sp500.py'**
 
 ## Latest Changes
-S&P500 Constituents Auto Renew at **2026-11-09 05:14:21**
+S&P500 Constituents Auto Renew at **2026-11-09 22:02:41**
 
 | date       | added_tickers                   | removed_tickers               |
 |:-----------|:--------------------------------|:------------------------------|
 | 2026-11-05 | ['OKTA']                        | ['KVUE']                      |
-| 2026-10-08 | ['SKYD', 'TWLO', 'VYLR']        | ['CTVA', 'PSKY', 'WBD']       |
+| 2026-10-08 | ['TWLO', 'VYLR', 'SKYD']        | ['CTVA', 'WBD', 'PSKY']       |
 | 2026-09-21 | ['ILMN', 'P', 'BE']             | ['BLDR', 'TTD', 'TAP']        |
-| 2026-08-18 | ['RDDT', 'VMRK']                | ['AVB', 'EQR']                |
+| 2026-08-18 | ['VMRK', 'RDDT']                | ['EQR', 'AVB']                |
 | 2026-08-06 | ['FERG']                        | ['EA']                        |
 | 2026-06-30 | ['HONA']                        | ['CAG']                       |
 | 2026-06-25 | ['ECHO']                        | ['SATS']                      |
@@ -24,11 +24,11 @@ S&P500 Constituents Auto Renew at **2026-11-09 05:14:21**
 | 2026-05-22 | ['BNY']                         | ['BK']                        |
 | 2026-05-07 | ['VEEV']                        | ['CTRA']                      |
 | 2026-04-09 | ['CASY']                        | ['HOLX']                      |
-| 2026-03-25 | ['SATS', 'COHR', 'LITE', 'VRT'] | ['MTCH', 'LW', 'MOH', 'PAYC'] |
+| 2026-03-25 | ['COHR', 'LITE', 'VRT', 'SATS'] | ['LW', 'PAYC', 'MOH', 'MTCH'] |
 | 2026-02-08 | ['CIEN']                        | nan                           |
 | 2026-02-05 | nan                             | ['DAY']                       |
 | 2026-01-15 | ['MRSH']                        | ['MMC']                       |
-| 2026-01-02 | ['CRH', 'CVNA']                 | ['SOLS']                      |
+| 2026-01-02 | ['CVNA', 'CRH']                 | ['SOLS']                      |
 | 2026-01-01 | ['FIX']                         | nan                           |
 | 2025-12-24 | nan                             | ['MHK', 'LKQ']                |
 | 2025-12-13 | ['ARES']                        | nan                           |
@@ -38,9 +38,9 @@ S&P500 Constituents Auto Renew at **2026-11-09 05:14:21**
 | 2025-11-13 | ['FISV']                        | ['FI']                        |
 | 2025-11-06 | ['Q']                           | ['EMN']                       |
 | 2025-10-31 | ['SOLS']                        | ['KMX']                       |
-| 2025-09-23 | ['APP', 'EME', 'HOOD']          | ['CZR', 'MKTX', 'ENPH']       |
-| 2025-09-09 | ['CZR', 'MKTX', 'ENPH']         | ['APP', 'EME', 'HOOD']        |
-| 2025-09-06 | ['APP', 'EME', 'HOOD']          | ['CZR', 'MKTX', 'ENPH']       |
+| 2025-09-23 | ['EME', 'APP', 'HOOD']          | ['MKTX', 'CZR', 'ENPH']       |
+| 2025-09-09 | ['MKTX', 'CZR', 'ENPH']         | ['EME', 'APP', 'HOOD']        |
+| 2025-09-06 | ['EME', 'APP', 'HOOD']          | ['MKTX', 'CZR', 'ENPH']       |
 | 2025-08-30 | nan                             | ['WBA']                       |
 | 2025-08-27 | ['IBKR']                        | nan                           |
 | 2025-08-12 | ['PSKY']                        | nan                           |
@@ -53,12 +53,12 @@ S&P500 Constituents Auto Renew at **2026-11-09 05:14:21**
 | 2025-05-17 | ['COIN']                        | ['DFS']                       |
 | 2025-05-14 | nan                             | ['COIN']                      |
 | 2025-05-13 | ['COIN']                        | nan                           |
-| 2025-03-25 | ['WSM', 'TKO', 'EXE', 'DASH']   | ['TFX', 'CE', 'BWA', 'FMC']   |
+| 2025-03-25 | ['WSM', 'EXE', 'TKO', 'DASH']   | ['CE', 'FMC', 'TFX', 'BWA']   |
 | 2024-12-26 | ['APO', 'WDAY']                 | ['QRVO', 'AMTM']              |
 | 2024-12-24 | ['LII']                         | nan                           |
 | 2024-12-19 | nan                             | ['CTLT']                      |
 | 2024-11-26 | ['TPL']                         | nan                           |
 | 2024-11-23 | nan                             | ['MRO']                       |
 | 2024-10-01 | ['AMTM']                        | ['BBWI']                      |
-| 2024-09-22 | ['DELL', 'ERIE', 'PLTR']        | ['AAL', 'ETSY', 'BIO']        |
+| 2024-09-22 | ['PLTR', 'DELL', 'ERIE']        | ['ETSY', 'BIO', 'AAL']        |
 | 2024-08-04 | ['BF.B']                        | ['BF-B']                      |
